@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card{
+  width: 260px;
+  background: linear-gradient(45deg,gray,red);
+  margin: 2px;
+  padding: 5px;
+  box-shadow: 5px 5px 5px black;
+  color: bisque;
+  border-radius: 4px;
+  
+}
+
+.landing-page{
+ background: white url("./assets/img/bg-image.jpeg") no-repeat scroll center;
+ opacity: 0.8;
+ background-size: cover;
+ height: 100vh;
+ color: beige;
+
+}
+
+.wrapper{
+  background-color: rgba(0,0,0,0.6);
+  height: 100vh;
 }
